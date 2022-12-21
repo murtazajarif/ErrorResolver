@@ -1,0 +1,50 @@
+[
+    {
+        "_id": 1,
+        "lang": "Go lang",
+        "error_domain": ["datatype", "syntax"],
+        "errorKey": "Error: count variable doesn't have a data type",
+        "res": "A. Count1 is of the int type var count1 int B. Count2 is of the int type var count2 = 10",
+        "documentation": "https://www.programiz.com/golang/data-types"
+    },
+    {
+        "_id": 2,
+        "lang": "Go lang",
+        "error_domain": ["datatype", "syntax"],
+        "errorKey": "Error! Constants cannot be changed",
+        "res": "Once a constant is declared, it's value cannot be altered. To resolve use `var` keyword to declare a datatype instead",
+        "documentation": "https://www.geeksforgeeks.org/data-types-in-go/?ref=lbp"
+    },
+    {
+        "_id": 3,
+        "lang": "Go lang",
+        "error_domain": ["arrays", "runtime", "logic"],
+        "errorKey": "Error! The index out of bounds",
+        "res": "The index of you loop has exceeded it's given condition. Try to optimize the logic or re-verify counter variable",
+        "documentation": "https://www.geeksforgeeks.org/arrays-in-go/"
+    },
+    {
+        "_id": 4,
+        "lang": "Go lang",
+        "error_domain": ["datatype", "syntax"],
+        "errorKey": "Error! Insufficient array declaration",
+        "res": "The array declaration in Go lang has syntax as such Var array_name[length]Type. To resolve this error, either declare the datatype after array length declaration OR insert data of the desired datatype",
+        "documentation": ""
+    },
+    {
+        "_id": 5,
+        "lang": "Go lang",
+        "error_domain": ["stucture", "syntax"],
+        "errorKey": "Error! Incorrect structure declaration",
+        "res": " generally compared with the classes in object-oriented programming. It can be termed as a lightweight class that does not support inheritance but supports composition. For Example, an address has a name, street, city, state, Pincode. It makes sense to group these three properties into a single structure address",
+        "documentation": "https://www.geeksforgeeks.org/structures-in-golang/?ref=lbp"
+    },
+    {
+        "_id": 6,
+        "lang": "Go lang",
+        "error_domain": ["slicing"],
+        "errorKey": "Error! Incorrect sclicing style",
+        "res": "The first index position in a slice is always 0 and the last one will be (length of slice –1).",
+        "documentation": "https://www.geeksforgeeks.org/slices-in-golang/?ref=lbp"
+    }
+]

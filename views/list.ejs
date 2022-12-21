@@ -1,0 +1,22 @@
+<%- include("header") -%>
+
+  <div id="navbar">
+    <h1> Error Resolver Database </h1>
+  </div>
+
+  <form class="searchBox" action="/" method="post">
+    <input type="text" name="question" placeholder="Search/Paste the error string" autocomplete="off">
+    <button class="searchBtn" type="submit" name="list">Search</button>
+  </form>
+
+  <div class="box">
+      <form action="/delete" method="post">
+      <div class="item">
+        <p><%=  resp[0].res %></p>
+      </div>
+    </form>
+
+  <div class="box documentation">
+    <a href="<%=resp[0].documentation%>">To learn more refer this documentation</a>
+  </div>
+<%- include("footer") -%>
